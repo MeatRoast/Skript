@@ -1,0 +1,148 @@
+﻿Options:
+	a: &6&l[!]
+
+on Every 60 Seconds:
+	if "%now%" contains "오전 12:00":
+		broadcast "{@a} &f서버에서 오전 &e12&f시를 알려드립니다."
+		loop all players:
+			play sound "ENTITY_PLAYER_LEVELUP" with volume 3 and pitch 1 at loop-player
+
+on Every 60 Seconds:
+	if "%now%" contains "오전 1:00":
+		broadcast "{@a} &f서버에서 오전 &e1&f시를 알려드립니다."
+		loop all players:
+			play sound "ENTITY_PLAYER_LEVELUP" with volume 3 and pitch 1 at loop-player
+		
+on Every 60 Seconds:
+	if "%now%" contains "오전 2:00":
+		broadcast "{@a} &f서버에서 오전 &e2&f시를 알려드립니다."
+		loop all players:
+			play sound "ENTITY_PLAYER_LEVELUP" with volume 3 and pitch 1 at loop-player
+		
+on Every 60 Seconds:
+	if "%now%" contains "오전 3:00":
+		broadcast "{@a} &f서버에서 오전 &e3&f시를 알려드립니다."
+		loop all players:
+			play sound "ENTITY_PLAYER_LEVELUP" with volume 3 and pitch 1 at loop-player
+		
+on Every 60 Seconds:
+	if "%now%" contains "오전 4:00":
+		broadcast "{@a} &f서버에서 오전 &e4&f시를 알려드립니다."
+		loop all players:
+			play sound "ENTITY_PLAYER_LEVELUP" with volume 3 and pitch 1 at loop-player
+
+on Every 60 Seconds:
+	if "%now%" contains "오전 5:00":
+		broadcast "{@a} &f서버에서 오전 &e5&f시를 알려드립니다."
+		loop all players:
+			play sound "ENTITY_PLAYER_LEVELUP" with volume 3 and pitch 1 at loop-player
+
+on Every 60 Seconds:
+	if "%now%" contains "오전 6:00":
+		broadcast "{@a} &f서버에서 오전 &e6&f시를 알려드립니다."
+		loop all players:
+			play sound "ENTITY_PLAYER_LEVELUP" with volume 3 and pitch 1 at loop-player
+		
+on Every 60 Seconds:
+	if "%now%" contains "오전 7:00":
+		broadcast "{@a} &f서버에서 오전 &e7&f시를 알려드립니다."
+		loop all players:
+			play sound "ENTITY_PLAYER_LEVELUP" with volume 3 and pitch 1 at loop-player
+		
+on Every 60 Seconds:
+	if "%now%" contains "오전 8:00":
+		broadcast "{@a} &f서버에서 오전 &e8&f시를 알려드립니다."
+		loop all players:
+			play sound "ENTITY_PLAYER_LEVELUP" with volume 3 and pitch 1 at loop-player
+		
+on Every 60 Seconds:
+	if "%now%" contains "오전 9:00":
+		broadcast "{@a} &f서버에서 오전 &e9&f시를 알려드립니다."
+		loop all players:
+			play sound "ENTITY_PLAYER_LEVELUP" with volume 3 and pitch 1 at loop-player
+		
+on Every 60 Seconds:
+	if "%now%" contains "오전 10:00":
+		broadcast "{@a} &f서버에서 오전 &e10&f시를 알려드립니다."
+		loop all players:
+			play sound "ENTITY_PLAYER_LEVELUP" with volume 3 and pitch 1 at loop-player
+		
+on Every 60 Seconds:
+	if "%now%" contains "오전 11:00":
+		broadcast "{@a} &f서버에서 오전 &e11&f시를 알려드립니다."
+		loop all players:
+			play sound "ENTITY_PLAYER_LEVELUP" with volume 3 and pitch 1 at loop-player
+		
+on Every 60 Seconds:
+	if "%now%" contains "오후 12:00":
+		broadcast "{@a} &f서버에서 오후 &e12&f시를 알려드립니다."
+		loop all players:
+			play sound "ENTITY_PLAYER_LEVELUP" with volume 3 and pitch 1 at loop-player
+
+on Every 60 Seconds:
+	if "%now%" contains "오후 1:00":
+		broadcast "{@a} &f서버에서 오후 &e1&f시를 알려드립니다."
+		loop all players:
+			play sound "ENTITY_PLAYER_LEVELUP" with volume 3 and pitch 1 at loop-player
+
+on Every 60 Seconds:
+	if "%now%" contains "오후 2:00":
+		broadcast "{@a} &f서버에서 오후 &e2&f시를 알려드립니다."
+		loop all players:
+			play sound "ENTITY_PLAYER_LEVELUP" with volume 3 and pitch 1 at loop-player
+
+on Every 60 Seconds:
+	if "%now%" contains "오후 3:00":
+		broadcast "{@a} &f서버에서 오후 &e3&f시를 알려드립니다."
+		loop all players:
+			play sound "ENTITY_PLAYER_LEVELUP" with volume 3 and pitch 1 at loop-player
+
+on Every 60 Seconds:
+	if "%now%" contains "오후 4:00":
+		broadcast "{@a} &f서버에서 오후 &e4&f시를 알려드립니다."
+		loop all players:
+			play sound "ENTITY_PLAYER_LEVELUP" with volume 3 and pitch 1 at loop-player
+
+on Every 60 Seconds:
+	if "%now%" contains "오후 5:00":
+		broadcast "{@a} &f서버에서 오후 &e5&f시를 알려드립니다."
+		loop all players:
+			play sound "ENTITY_PLAYER_LEVELUP" with volume 3 and pitch 1 at loop-player
+		
+on Every 60 Seconds:
+	if "%now%" contains "오후 6:00":
+		broadcast "{@a} &f서버에서 오후 &e6&f시를 알려드립니다."
+		loop all players:
+			play sound "ENTITY_PLAYER_LEVELUP" with volume 3 and pitch 1 at loop-player
+		
+on Every 60 Seconds:
+	if "%now%" contains "오후 7:00":
+		broadcast "{@a} &f서버에서 오후 &e7&f시를 알려드립니다."
+		loop all players:
+			play sound "ENTITY_PLAYER_LEVELUP" with volume 3 and pitch 1 at loop-player
+		
+on Every 60 Seconds:
+	if "%now%" contains "오후 8:00":
+		broadcast "{@a} &f서버에서 오후 &e8&f시를 알려드립니다."
+		loop all players:
+			play sound "ENTITY_PLAYER_LEVELUP" with volume 3 and pitch 1 at loop-player
+		
+on Every 60 Seconds:
+	if "%now%" contains "오후 9:00":
+		broadcast "{@a} &f서버에서 오후 &e9&f시를 알려드립니다."
+		loop all players:
+			play sound "ENTITY_PLAYER_LEVELUP" with volume 3 and pitch 1 at loop-player
+		
+on Every 60 Seconds:
+	if "%now%" contains "오후 10:00":
+		broadcast "{@a} &f서버에서 오후 &e10&f시를 알려드립니다."
+		loop all players:
+			play sound "ENTITY_PLAYER_LEVELUP" with volume 3 and pitch 1 at loop-player
+		
+on Every 60 Seconds:
+	if "%now%" contains "오후 11:00":
+		broadcast "{@a} &f서버에서 오후 &e11&f시를 알려드립니다."
+		loop all players:
+			play sound "ENTITY_PLAYER_LEVELUP" with volume 3 and pitch 1 at loop-player
+
+

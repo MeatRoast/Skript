@@ -1,0 +1,71 @@
+# This script was produced by a MeatRoast.
+# This script can be modified/distributed second time, but please leave a source!!
+# Business license number:  703-18-01118
+# Telecommunication sales business report number: 2020-경북-0041
+#Report number is based on Republic of Korea.
+
+options:
+	a: &6[!]
+command /fclean:
+	permission: honor.sk
+	permission message: {@a} You don't have the authority.
+	trigger:
+		loop all players:
+			send action bar from "{@a} &fAfter &e5 &fseconds, the items on the floor will be removed." to loop-player
+		wait 0.9 seconds
+		play sound "UI_BUTTON_CLICK" with volume 1 and pitch 1 at player
+		loop all players:
+			send action bar from "{@a} &fAfter &e4 &fseconds, the items on the floor will be removed." to loop-player
+		wait 0.9 seconds
+		play sound "UI_BUTTON_CLICK" with volume 1 and pitch 1 at player
+		loop all players:
+			send action bar from "{@a} &fAfter &e3 &fseconds, the items on the floor will be removed." to loop-player
+		wait 0.9 seconds
+		play sound "UI_BUTTON_CLICK" with volume 1 and pitch 1 at player
+		loop all players:
+			send action bar from "{@a} &fAfter &e2 &fseconds, the items on the floor will be removed." to loop-player
+		wait 0.9 seconds
+		play sound "UI_BUTTON_CLICK" with volume 1 and pitch 1 at player
+		loop all players:
+			send action bar from "{@a} &fAfter &e1 &fseconds, the items on the floor will be removed." to loop-player
+		wait 0.9 seconds
+		play sound "UI_BUTTON_CLICK" with volume 1 and pitch 1 at player
+		loop all players:
+			send action bar from "{@a} &fAfter &e1 &fseconds, the items on the floor will be removed." to loop-player
+		wait 0.9 seconds
+		set {_Deleted} to 0
+		loop all dropped items:
+			add 1 to {_Deleted}
+			clear loop-entity
+		loop all players:
+			send action bar from "{@a} &fI cleaned &c%{_Deleted}% &fitems." to loop-player
+		play sound "ENTITY_PLAYER_LEVELUP" with volume 1 and pitch 1 at player
+		
+on every 10 minutes:
+	loop all players:
+		send action bar from "{@a} &fAfter &e10 &fseconds, the items on the floor will be removed." to loop-player
+		wait 5 seconds
+		send action bar from "{@a} &fAfter &e5 &fseconds, the items on the floor will be removed." to loop-player
+		wait 0.9 seconds
+		play sound "UI_BUTTON_CLICK" with volume 1 and pitch 1 at loop-player
+		send action bar from "{@a} &fAfter &e4 &fseconds, the items on the floor will be removed." to loop-player
+		wait 0.9 seconds
+		play sound "UI_BUTTON_CLICK" with volume 1 and pitch 1 at loop-player
+		send action bar from "{@a} &fAfter &e3 &fseconds, the items on the floor will be removed." to loop-player
+		wait 0.9 seconds
+		play sound "UI_BUTTON_CLICK" with volume 1 and pitch 1 at loop-player
+		send action bar from "{@a} &fAfter &e2 &fseconds, the items on the floor will be removed." to loop-player
+		wait 0.9 seconds
+		play sound "UI_BUTTON_CLICK" with volume 1 and pitch 1 at loop-player
+		send action bar from "{@a} &fAfter &e1 &fseconds, the items on the floor will be removed." to loop-player
+		wait 0.9 seconds
+		play sound "UI_BUTTON_CLICK" with volume 1 and pitch 1 at loop-player
+		send action bar from "{@a} &fAfter &e0 &fseconds, the items on the floor will be removed." to loop-player
+		wait 0.9 seconds
+	set {_Deleted} to 0
+	loop all dropped items:
+		add 1 to {_Deleted}
+		clear loop-entity
+	loop all players:
+		send action bar from "{@a} &fI cleaned &c%{_Deleted}% &fitems." to loop-player
+		play sound "ENTITY_PLAYER_LEVELUP" with volume 3 and pitch 1 at loop-player
