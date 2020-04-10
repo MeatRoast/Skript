@@ -1,4 +1,10 @@
-﻿Options:
+# This script was produced by a MeatRoast.
+# This script can be modified/distributed second time, but please leave a source!!
+# Business license number:  703-18-01118
+# Telecommunication sales business report number: 2020-경북-0041
+#Report number is based on Republic of Korea.
+
+Options:
 	a: &6&l[!]
 
 on Every 60 Seconds:
