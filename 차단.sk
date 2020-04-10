@@ -1,0 +1,48 @@
+# 이 스크립트는 고기꿉자의 의해 제작되었습니다.
+# 본 스크립트는 2차 수정/배포는 가능하나 출처를 남겨주세요!!
+# 본 저작권은 고기꿉자에게 있습니다.
+# 사업자 등록번호: 703-18-01118
+# 통신판매업신고번호: 제 2020-경북상주-0041 호
+
+options:
+	a: &e&l[ &6&lMeatBall &e&l]
+	b: &c&l[ BAN ]
+	
+command /차단 [<text>] [<text>] [<text>] [<text>]:
+	permission: ban.sk
+	permission message: &c이 명령어를 사용할 권한이 없습니다.
+	trigger:
+		if arg 1 is not set:
+			send ""
+			send "{@b} &b시스템"
+			send "&f/차단 하기 [ 타입 (일반 / 아이피)] [ Player ] [ 사유 ]"
+			send "&f/차단 해제 [ Player ]"
+			send ""
+			stop
+				
+		if arg 1 is "하기":
+			if arg 2 is set:
+				if arg 3 is set:
+					if arg 4 is set:
+						if arg 2 is "일반":
+							execute console command "/ban %arg 3% &e&l[ &6&lMeatBall &e&l] &c관리자의 의해 차단 되었습니다. &f( 사유: %arg 4% )"
+							send "{@b} %player%님에 의해 %arg 3%님 께서 '%arg 4%'의 사유로 밴 되었습니다." to ops
+						if arg 2 is "아이피":
+							execute console command "/ban-ip %arg 3% &e&l[ &6&lMeatBall &e&l] &c관리자의 의해 아이피 차단 되었습니다. &f( 사유: %arg 4% )"
+							send "{@b} %player%님에 의해 %arg 3%님 께서 '%arg 4%'의 사유로 아이피 밴이 되었습니다" to ops
+					else:
+						send "{@b} 밴 사유를 입력해주세요."
+				else:
+					send "{@b} 플레이어를 입력해주세요."
+			else:
+				send "{@b} 밴 타입을 입력해주세요. (일반 / 아이피)"
+		if arg 1 is "해제":
+			if arg 2 is set:
+				execute console command "/unban %arg 2%"
+				execute console command "/unbanip %arg 2%"
+				message "{@b} %player%님에 의해 %arg 2%님의 밴이 해제되었습니다." to ops
+
+			
+							
+		
+		
