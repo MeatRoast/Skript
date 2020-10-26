@@ -3,6 +3,7 @@ Minecraft Skript
 마인크래프트 스크립트 목록
 
 본 스크립트는 **_1.16.3_** 에서 모드 테스트가 완료된 스크립트입니다.
+
 This skript has been tested in **_1.16.3_**
 
 
